@@ -232,7 +232,7 @@ void Binary_Tree::postorderRecursive(BiNODE *root)
         cout << root->data << endl;
     }
 }
-
+//
 void Binary_Tree::layerOrder(BiNODE *root)
 {
     binaryTreeNODE queue[MAX];
